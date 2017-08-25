@@ -1,0 +1,68 @@
+#button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#finish {
+  padding: 0px 170px;
+}
+#finish button{
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 100px;
+  border: 2px solid #FE9204;
+  color:white;
+  letter-spacing:1px;
+  text-shadow:0;
+  background-color: #FE9204;
+  font-weight: bold;
+  font-size: 20px;
+}
+#finish button:hover {
+  cursor: pointer;
+  transition: all 0.25s ease;
+  color:#FE9204;
+  background: white;
+}
+#UploadView {
+  margin: 3px;
+  color: #7BA2A5;
+  border-color: #7BA2A5;
+  padding: 50px 50px;
+  font-family: 'Titillium Web', monospace;
+}
+#dropbox {
+  outline: 2px dashed grey; /* the dash box */
+  outline-offset: -10px;
+  background: lightcyan;
+  color: dimgray;
+  padding: 10px 10px;
+  min-height: 200px; /* minimum height */
+  position: relative;
+  cursor: pointer;
+  font-family: 'Titillium Web', monospace;
+}
+
+.input-file {
+  opacity: 0; /* invisible but it's there! */
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#dropbox:hover {
+  background: lightblue; /* when mouse over to the drop zone, change color */
+}
+
+#dropbox p {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#nameFile {
+  color: #4A6EC3;
+  font-weight: bold;
+}

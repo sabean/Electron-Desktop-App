@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+#land-outer {
+  padding: 150px;
+  margin: 20px 20px;
+}
+#land-body {
+  background: radial-gradient(
+    ellipse at top left,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(229, 229, 229, .9) 100%
+  );
+  margin: 20px;
+  padding: 10px 20px;
+  border-style: ridge;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width: 80%;
+}
+#before_add {
+  background-image: url(../../assets/kreatize_supplier_cover.jpg);
+  margin: -20px;
+  color: #23CAE3;
+  color: white;
+  padding: 100px 100px;
+  border-style: ridge;
+  text-align: center;
+  font-family: 'Titillium Web', monospace;
+}
+#land-buttons {
+  float: right;
+}
+#land-single-button {
+  height: 80px;
+}
+#single-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-group button {
+  font-family: 'Titillium Web', monospace;
+  outline:none;
+  height: 45px;
+  text-align: center;
+  width: 130px;
+  color:#738474;
+  letter-spacing:1px;
+  text-shadow:0;
+  font-weight: bold;
+  font-size: 20px;
+}
+#start {
+  border: 1px solid #0144FE;
+  background-color: white;
+}
+#pause {
+  border: 1px solid #FE0404;
+  background-color: white;
+}
+#add {
+  color: white;
+  border: px solid #FE9204;
+  background-color: #FE9204;
+}
+.btn-group button:hover {
+  cursor: pointer;.
+  transition: all 0.25s ease;
+  color: black;
+  background: white;
+  box-shadow: 0 0 1px 2px rgba(190, 190, 190, 0.4),
+  0 0 1px 4px rgba(145, 145, 145, 0.1),
+  0 0 1px 8px rgba(107, 101, 101, 0.1);
+}
+#landing_body {
+  background: #EAEAFE;
+  margin: 10px;
+  padding: 30px 30px;
+}
+.landing_body {
+  background: #EAEAFE;
+  margin: 10px;
+  padding: 30px 30px;
+}
+.lower {
+  background: #EAEAFE;
+  margin: 8px;
+  padding: 30px 30px;
+  height: 130px;
+}

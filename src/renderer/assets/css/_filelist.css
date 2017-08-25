@@ -1,0 +1,16 @@
+  #file_panel {
+  margin: 5px;
+  padding: 10px;
+  background: radial-gradient(
+                ellipse at top left,
+                rgba(255, 255, 255, 1) 40%,
+                rgba(229, 229, 229, .9) 100%
+        );
+  border-style: ridge;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+@media (min-width: 2000px) and (max-width: 4000px) {
+  #file_panel {
+    width: 250px;
+  }
+}

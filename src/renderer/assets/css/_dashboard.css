@@ -1,0 +1,136 @@
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .73);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    max-height: calc(200vh - 100px);
+    max-width: calc(200vw - 100px);
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cancel {
+    color: red;
+    border: 1px solid #FE0404;
+    background-color: white;
+}
+
+#finish {
+    color:white;
+    border: 2px solid #FE9204;
+    background-color: #FE9204;
+}
+.btn-group button {
+    font-family: 'Titillium Web', monospace;
+    outline:none;
+    height: 45px;
+    text-align: center;
+    width: 130px;
+    color:#738474;
+    letter-spacing:1px;
+    text-shadow:0;
+    font-weight: bold;
+    font-size: 20px;
+    background: white;
+}
+.btn-group button:hover {
+    cursor: pointer;.
+    transition: all 0.25s ease;
+    background: white;
+    box-shadow: 0 0 1px 3px rgba(190, 190, 190, 0.4),
+    0 0 1px 6px rgba(145, 145, 145, 0.1),
+    0 0 1px 12px rgba(107, 101, 101, 0.1);
+}
+#styling {
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+}
+#UploadView {
+    margin: 4px;
+    border-color: #7BA2A5;
+    font-family: 'Titillium Web', monospace;
+}
+#dropbox {
+    outline: 2px dashed grey; /* the dash box */
+    outline-offset: -10px;
+    color: dimgray;
+    padding: 10px 10px;
+    min-height: 410px; /* minimum height */
+    position: relative;
+    cursor: pointer;
+    font-family: 'Titillium Web', monospace;
+}
+
+.input-file {
+    opacity: 0; /* invisible but it's there! */
+    width: 100%;
+    height: 410px;
+    position: absolute;
+    cursor: pointer;
+}
+#line-styling {
+    color: white;
+}
+#dropbox:hover {
+    background: lightblue; /* when mouse over to the drop zone, change color */
+}
+
+#dropbox p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#nameFile {
+    color: #4A6EC3;
+    font-weight: bold;
+    margin: 8px 1px;
+}
+@media only screen and (max-width: 768px) and (max-height: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

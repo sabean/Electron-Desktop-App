@@ -1,0 +1,5 @@
+.progress {
+  zoom: 0.4;
+  -moz-transform: scale(0.4);
+  border: 2px solid blue;
+}
